@@ -1,0 +1,1 @@
+![](https://github.com/NicolDayanaGarciaChia/proyectoPython/blob/main/img/1.jpg)
