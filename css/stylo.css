@@ -4,3 +4,57 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    background-color: #fff9f9;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-around;
+   
+
+  }
+
+  #logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  nav {
+    display: flex;
+    gap: 130px;
+
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #898181;
+    font-weight: bold;
+    transition: color 0.3s;
+    justify-content: space-between ;
+  }
+
+  nav a:hover {
+    color: #161514; /* Cambiar color al pasar el mouse */
+  }
+
+  #language {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+  }
+
+  #language a {
+    text-decoration: none;
+    color:#fcfcfc;
+    font-weight: bold;
+    background: #898181;
+    
+  }
