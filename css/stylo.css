@@ -1,67 +1,54 @@
 @import url(variables.css);
 *{
-    padding: 0;
-    margin: 0;
+    
+    
     box-sizing: border-box;
 }
 
-body {
+.container {
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
     margin: 50px;
     padding: 10px;
-}
-
-.parent{
-
-    display: flex;
     flex-flow: column;
-    border: 35px rgb(132, 165, 132);
+    border: 35px rgb(190, 208, 190);
     width: 400px;
     height: 300px;
     box-sizing: border-box;
-    justify-content:space-between;
+    /* justify-content:space-between; */
     align-items: center;
     align-content:normal
-    gap:20px 50px 60px;
+    
 
 }
 
 .item {
-    box-sizing: border-box;
-    width: 400px;
-    height: 50px;
-    background-color:goldenrod;
-    
     display: flex;
+    box-sizing: border-box;
+    align-content:center;
+    justify-content: space-between;
+
+    margin: 5px SOLID rgb(215, 212, 210);
+    ;
+    width: 500px;
+    height: 50px; 
+    border: 2px solid #ffffff;
+    padding: 10px;
+    background-color:rgb(215, 212, 210);
     opacity: 0.9;
+    align-items: center;
+
+    
     
 
 }
 
-.item: :first-child {
-    background-color: rgb(188, 178, 178) 
-    width: 400px;
-    height: 10px;
-    z-index: 2;
 
-
-
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: none;
 
 }
-.item: :nth-child(2) {
-    background-color: rgb(188, 178, 178) 
-    height: 50px;
-    
-}
-.item: :nth-child(3) {
-    background-color: rgb(188, 178, 178) 
-    height: 50px;
-    
-}
-.item: :last-child {
-    background-color: rgb(188, 178, 178) 
-    height: 50px;
-    
-}
-
 
