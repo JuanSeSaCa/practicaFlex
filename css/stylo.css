@@ -10,7 +10,7 @@ padding: 10px;
 display: flex;
 flex-flow: row wrap;
 /* align-content: space-evenly; */
-justify-content: space-around;
+justify-content: space-evenly;
 
 
 }
@@ -18,7 +18,10 @@ justify-content: space-around;
     display: flex;
     background-blend-mode:  15px solid  gray;
     opacity: 90%;
-    padding: 40px;
-    height: 440px;
-    width: 430px;
+    padding: 20px;
+    height: 460px;
+    width: 400px;
+    flex: 0 1 0 ;
+    
+
 }
