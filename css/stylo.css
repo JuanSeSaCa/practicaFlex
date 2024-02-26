@@ -6,12 +6,63 @@
 }
 body{
 
+    padding: 20px;
+    height: 100vh;
+   
+
+   }
+
+main{
     display: flex;
-    flex-flow: column wrap;
-    height: 100%;
 }
 header {
-    height: 150px;
-    background: solid rgb(151, 150, 146);
+    display: flex;
+    height: 20vh;
+    background-color: color rgb(245, 243, 238);
+    align-items: center;
+    justify-content: center;
+    background: rgb(245, 249, 248);
 
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    /* flex:2 0 1; */
+    height: 65vh;
+    width: 50%;
+    justify-items:center;
+    align-items: center;
+    order: 2;
+    background: rgb(182, 186, 185);
+    
+
+
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    width: 25%;
+    order: 1;
+    background: rgb(171, 176, 175);
+
+    
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    width: 25%;
+    order: 3;
+    background: rgb(205, 211, 209);
+
+}
+
+footer {
+    background: rgb(117, 121, 120);
+    height: 15vh;
+    width: 100%;
 }
