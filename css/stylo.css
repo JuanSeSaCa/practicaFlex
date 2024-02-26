@@ -4,14 +4,14 @@
     margin: 0;
     box-sizing: border-box;
 }
-.body{
+body{
 
     display: flex;
     flex-flow: column wrap;
-
+    height: 100%;
 }
-.header {
-    height: 20vh;
-    width: 100vh;
+header {
+    height: 150px;
     background: solid rgb(151, 150, 146);
+
 }
