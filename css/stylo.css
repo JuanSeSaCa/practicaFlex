@@ -4,3 +4,28 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(232, 230, 230) ;
+    height: 750px;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(208, 208, 208);
+    text-align:left;
+    padding: 5px;
+    text-decoration: 
+}
