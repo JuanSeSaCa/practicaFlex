@@ -1,27 +1,30 @@
 @import url(variables.css);
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.container{
-padding: 10px;
-display: flex;
-flex-flow: row wrap;
-/* align-content: space-evenly; */
-justify-content: space-evenly;
-
-
-}
-.row {
+.container {
+    padding: 10px;
     display: flex;
-    background-blend-mode:  15px solid  gray;
-    opacity: 90%;
-    padding: 20px;
-    height: 460px;
-    width: 400px;
-    flex: 0 1 0 ;
-    
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
+.item {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(101, 104, 106, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    
+    border-radius: 8px;
+    font-size: 30px;
+    color: rgb(127, 149, 149);
+    background: rgb(220, 217, 217);
 }
