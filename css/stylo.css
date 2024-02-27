@@ -9,25 +9,39 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+main {
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background: #93d9e9;
 }
 
-main {
+/* main {
     display:flex;
-    flex-flow:column wrap;
-}
+    flex-flow:column wrap; */
 
 
-article {
+
+.columna {
+    display: flex;
+    flex-wrap: row wrap;
+    align-content: center;
+    justify-content: space-between;
+    flex: 1 1 80px;
     background: white;
     height: 480px;
-    height: 25%;
+    width: 100px;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 20px;
+    
+
 }
 
-h2 {
-    
+.titulo {
+
+    background: salmon;
+
+
 }
