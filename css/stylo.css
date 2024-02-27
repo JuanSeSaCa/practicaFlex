@@ -1,68 +1,74 @@
 @import url(variables.css);
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
 
-    padding: 20px;
-    height: 100vh;
-   
-
-   }
-
-main{
-    display: flex;
+html {
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
 header {
     display: flex;
     height: 20vh;
-    background-color: color rgb(245, 243, 238);
     align-items: center;
     justify-content: center;
-    background: rgb(245, 249, 248);
+    background: rgb(224, 226, 226);
+    font-size: 20px;
 
+}
+
+article,
+nav,
+aside {
+    height: 100%;
+    padding: 20px;
+    font-size: 19px;
 }
 
 article {
-    display: flex;
-    flex-direction: column;
-    /* flex:2 0 1; */
-    height: 65vh;
-    width: 50%;
-    justify-items:center;
-    align-items: center;
+    /* width: 50%; */
     order: 2;
     background: rgb(182, 186, 185);
-    
-
-
+    flex: 2;
 }
 
 nav {
-    display: flex;
-    flex-direction: column;
-    height: 65vh;
-    width: 25%;
+    /* width: 25%; */
     order: 1;
-    background: rgb(171, 176, 175);
-
-    
+    background: rgb(203, 206, 206);
+    flex: 1;
 }
 
-aside{
-    display: flex;
-    flex-direction: column;
-    height: 65vh;
-    width: 25%;
+aside {
+    /* width: 25%; */
     order: 3;
-    background: rgb(205, 211, 209);
-
+    background: rgb(203, 206, 206);
+    flex: 1;
 }
 
 footer {
-    background: rgb(117, 121, 120);
-    height: 15vh;
-    width: 100%;
+    background: rgb(224, 226, 226);
+    height: 130px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    
 }
