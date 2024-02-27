@@ -13,8 +13,10 @@ main {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background: #93d9e9;
+    padding: 50px;
+    
 }
 
 /* main {
@@ -31,17 +33,37 @@ main {
     flex: 1 1 80px;
     background: white;
     height: 480px;
-    width: 100px;
+    width: 80px;
     flex-direction: column;
+    margin: 25px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
     border-radius: 10px;
-    margin: 20px;
-    
-
+    padding-block-end: 20px;
 }
 
 .titulo {
-
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
     background: salmon;
+    height: 60px;
+    text-align: center;
+    text-justify:center ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
 
 
+}
+.parrafo{
+    padding: 20px;
+}
+.btn{
+   
+
+    height: 50px;
+    width: 100px;
+    align-self: center;
+    gap: ;
 }
